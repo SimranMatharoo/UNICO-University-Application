@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Evaluation1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homebackground">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="157dp"
+            android:layout_height="136dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="247dp"
+            android:background="@drawable/year_buttons"
+            android:backgroundTint="#395CDC"
+            android:text="Year 1"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="157dp"
+            android:layout_height="136dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="247dp"
+            android:background="@drawable/year_buttons"
+            android:backgroundTint="#395CDC"
+            android:text="Year 2"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/button7"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="157dp"
+            android:layout_height="136dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="107dp"
+            android:background="@drawable/year_buttons"
+            android:backgroundTint="#395CDC"
+            android:text="Year 3"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="157dp"
+            android:layout_height="136dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="107dp"
+            android:background="@drawable/year_buttons"
+            android:backgroundTint="#395CDC"
+            android:text="Year 4"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/button18"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="290dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="38dp"
+            android:text="STUDENTS"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
